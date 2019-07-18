@@ -1,0 +1,25 @@
+.card-container{
+    display: flex;
+    flex-direction: column;
+    background-color: #3caea3;
+    border: 1px solid black;
+    padding: 40px;
+    cursor: pointer;
+    border-radius: 12px;
+    -moz-osx-font-smoothing: grayscale;
+    transform: translateZ(0);
+    backface-visibility: hidden;
+    transition: transform 0.25s ease-out;
+}
+
+.card-container h3{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.card-container:hover{
+    transform: scale(1.05);
+}
